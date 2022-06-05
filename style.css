@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: linear-gradient(#d4dfff, #faefb8, #f8becd, #bd84b2);
+    margin: 0 auto;
+    max-width: 1440px;
+    font-family: 'Dosis', sans-serif;
+}
+.content{
+    width: 80%;
+    margin: auto;
+}
+div{
+    padding: 15px;
+}
+.photo{
+
+}
+.contact{
+
+}
+h1{
+    font-size: 40px;
+    font-weight: 900;
+
+}
+h2{
+    font-size: 30px;
+
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+li{
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-bottom: 100px;
+    margin-top: 20px;
+
+}
+.nav li{
+    display: inline;
+    margin: 0 10px;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 900;
+    color: #6b3c99;
+}
+a:visited {
+    color: #591758;
+}
+a:hover {
+    color: #ebac85;
+}
+
+.avatar{
+    width: 50%;
+    border-radius: 100%;
+    padding-bottom: 30px;
+}
+.contact{
+    padding-top: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    width: 60%;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.you{
+    font-weight: 500;
+}
+blockquote{
+    font-size: 30px;
+    float: right;
+    font-weight: 600;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+pre{
+    width: 42%;
+    background-color: #d9acd6;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Bitter', serif;
+    border-radius: 20%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+.column{
+    text-align: center;
+    background-color: #ffc9d8;
+    border-radius: 30%;
+
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+}
